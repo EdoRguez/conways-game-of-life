@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConwaysGameOfLife.Tests", "ConwaysGameOfLife.Tests\ConwaysGameOfLife.Tests.csproj", "{9B2156C3-10F9-4FF8-95E2-D423DE83088A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConwaysGameOfLife.Infrastructure", "ConwaysGameOfLife.Infrastructure\ConwaysGameOfLife.Infrastructure.csproj", "{59D5DA0A-203A-4D83-96B5-AB9840E12D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConwaysGameOfLife.Core", "ConwaysGameOfLife.Core\ConwaysGameOfLife.Core.csproj", "{72525800-1F30-4534-8029-F0E4530A9F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConwaysGameOfLife.Contracts", "ConwaysGameOfLife.Contracts\ConwaysGameOfLife.Contracts.csproj", "{99969A61-B5FA-4DA9-B640-3B4DBAAE7F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConwaysGameOfLife.Api", "ConwaysGameOfLife.Api\ConwaysGameOfLife.Api.csproj", "{D2049B92-3C7F-42BE-84B0-7FDC46972764}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B2156C3-10F9-4FF8-95E2-D423DE83088A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2156C3-10F9-4FF8-95E2-D423DE83088A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2156C3-10F9-4FF8-95E2-D423DE83088A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2156C3-10F9-4FF8-95E2-D423DE83088A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D5DA0A-203A-4D83-96B5-AB9840E12D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D5DA0A-203A-4D83-96B5-AB9840E12D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D5DA0A-203A-4D83-96B5-AB9840E12D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D5DA0A-203A-4D83-96B5-AB9840E12D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72525800-1F30-4534-8029-F0E4530A9F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72525800-1F30-4534-8029-F0E4530A9F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72525800-1F30-4534-8029-F0E4530A9F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72525800-1F30-4534-8029-F0E4530A9F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99969A61-B5FA-4DA9-B640-3B4DBAAE7F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99969A61-B5FA-4DA9-B640-3B4DBAAE7F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99969A61-B5FA-4DA9-B640-3B4DBAAE7F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99969A61-B5FA-4DA9-B640-3B4DBAAE7F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2049B92-3C7F-42BE-84B0-7FDC46972764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2049B92-3C7F-42BE-84B0-7FDC46972764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2049B92-3C7F-42BE-84B0-7FDC46972764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2049B92-3C7F-42BE-84B0-7FDC46972764}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
