@@ -31,7 +31,7 @@ public class GetNextStateHandler
         return nextState;
     }
 
-    private HashSet<Cell> ComputeNextState(HashSet<Cell> liveCells)
+    public HashSet<Cell> ComputeNextState(HashSet<Cell> liveCells)
     {
         var neighborCounts = new Dictionary<Cell, int>();
         foreach (var cell in liveCells)
