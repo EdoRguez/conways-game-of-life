@@ -43,7 +43,7 @@ public class GetNextStateHandlerTests
         };
 
         // Act
-        var result = _handler.ComputeNextState(block);
+        var result = ConwaysGameOfLife.Core.Utils.Board.ComputeNextState(block);
 
         // Assert
         Assert.Equal(block, result);
@@ -59,7 +59,7 @@ public class GetNextStateHandlerTests
         };
 
         // Act - After one iteration should be vertical
-        var result = _handler.ComputeNextState(blinker);
+        var result = ConwaysGameOfLife.Core.Utils.Board.ComputeNextState(blinker);
 
         // Assert
         var expected = new HashSet<Cell>

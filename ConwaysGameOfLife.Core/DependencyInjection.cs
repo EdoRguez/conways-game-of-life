@@ -9,6 +9,9 @@ public static class DependencyInjection
     {
         services.AddScoped<CreateBoardHandler>();
         services.AddScoped<GetNextStateHandler>();
+        services.AddScoped<GetFinalStateHandler>();
+        services.AddScoped<GetFutureStateHandler>();
+
 
         return services;
     }
