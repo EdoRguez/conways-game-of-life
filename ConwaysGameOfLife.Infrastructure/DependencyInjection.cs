@@ -29,7 +29,7 @@ public static class DependencyInjection
     public static IServiceCollection AddPersistence(this IServiceCollection services)
     {
         services.AddScoped<IUnitOfWork, UnitOfWork>();
-        services.AddScoped<IGameRepository, GameRepository>();
+        services.AddScoped<IBoardRepository, BoardRepository>();
 
         return services;
     }

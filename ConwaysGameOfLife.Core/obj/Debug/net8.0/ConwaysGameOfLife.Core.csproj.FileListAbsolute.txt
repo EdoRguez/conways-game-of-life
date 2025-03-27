@@ -1,0 +1,16 @@
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/bin/Debug/net8.0/ConwaysGameOfLife.Core.deps.json
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/bin/Debug/net8.0/ConwaysGameOfLife.Core.dll
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/bin/Debug/net8.0/ConwaysGameOfLife.Core.pdb
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/bin/Debug/net8.0/ConwaysGameOfLife.Contracts.dll
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/bin/Debug/net8.0/ConwaysGameOfLife.Contracts.pdb
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysGameOfLife.Core.csproj.AssemblyReference.cache
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysGameOfLife.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysGameOfLife.Core.AssemblyInfoInputs.cache
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysGameOfLife.Core.AssemblyInfo.cs
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysGameOfLife.Core.csproj.CoreCompileInputs.cache
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysGameOfLife.Core.sourcelink.json
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysG.C4976DF1.Up2Date
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysGameOfLife.Core.dll
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/refint/ConwaysGameOfLife.Core.dll
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ConwaysGameOfLife.Core.pdb
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Core/obj/Debug/net8.0/ref/ConwaysGameOfLife.Core.dll

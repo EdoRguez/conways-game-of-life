@@ -2,7 +2,7 @@
 
 public class CreateBoardRequest
 {
-    public HashSet<Cell> Cells { get; set; } = new HashSet<Cell>();
+    public HashSet<CellRequest> Cells { get; set; } = new HashSet<CellRequest>();
 }
 
-public record Cell(int X, int Y);
+public record CellRequest(int X, int Y);

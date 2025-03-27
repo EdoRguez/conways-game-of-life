@@ -1,3 +1,4 @@
+using ConwaysGameOfLife.Api.Common.Mapping;
 using ConwaysGameOfLife.Api.Middlewares;
 
 namespace ConwaysGameOfLife.Api;
@@ -10,6 +11,8 @@ public static class DependencyInjection
         services.AddSwaggerGen();
 
         services.AddTransient<GlobalExceptionHandlingMiddleware>();
+
+        services.AddMappings();
 
         services.ConfigureCors();
 

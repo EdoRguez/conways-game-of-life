@@ -1,0 +1,12 @@
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/bin/Debug/net8.0/ConwaysGameOfLife.Contracts.deps.json
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/bin/Debug/net8.0/ConwaysGameOfLife.Contracts.dll
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/bin/Debug/net8.0/ConwaysGameOfLife.Contracts.pdb
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/ConwaysGameOfLife.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/ConwaysGameOfLife.Contracts.AssemblyInfoInputs.cache
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/ConwaysGameOfLife.Contracts.AssemblyInfo.cs
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/ConwaysGameOfLife.Contracts.csproj.CoreCompileInputs.cache
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/ConwaysGameOfLife.Contracts.sourcelink.json
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/ConwaysGameOfLife.Contracts.dll
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/refint/ConwaysGameOfLife.Contracts.dll
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/ConwaysGameOfLife.Contracts.pdb
+/Users/pc/Documents/Projects/conways-game-of-life/ConwaysGameOfLife.Contracts/obj/Debug/net8.0/ref/ConwaysGameOfLife.Contracts.dll
