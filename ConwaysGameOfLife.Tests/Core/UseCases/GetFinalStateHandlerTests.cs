@@ -34,21 +34,20 @@ public class GetFinalStateHandlerTests
     }
 
     [Fact]
-    public async Task Handle_BlinkerPattern_ReturnsCorrectStateAfterSteps()
+    public async Task Handle_BlockStable_ReturnsCorrectStateAfterSteps()
     {
         // Arrange
         var boardId = Guid.NewGuid();
-        var initialCells = new HashSet<Cell> { new(1, 1), new(2, 1), new(3, 1) };
+        var initialCells = new HashSet<Cell> { new(0, 0), new(1, 0), new(0, 1) };
         var board = new Board{ Id = boardId, StateJson = JsonSerializer.Serialize(initialCells) };
 
         _mockRepo.Setup(r => r.GetBoardAsync(boardId, true))
             .ReturnsAsync(board);
 
-        // Blinker should return to original state after 2 steps
-        var expectedState = initialCells;
+        var expectedState = new HashSet<Cell> { new(0, 0), new(1, 0), new(0, 1), new(1, 1) };
 
         // Act
-        var result = await _handler.Handle(boardId, 205);
+        var result = await _handler.Handle(boardId, 2);
 
         // Assert
         Assert.True(result.IsSuccess);

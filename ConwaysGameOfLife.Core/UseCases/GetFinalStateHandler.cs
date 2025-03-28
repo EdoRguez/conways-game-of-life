@@ -26,14 +26,14 @@ public class GetFinalStateHandler
         {
             var currentState = JsonSerializer.Deserialize<HashSet<Cell>>(board.StateJson) ?? new HashSet<Cell>();
             var nextState = Utils.Board.ComputeNextState(currentState);
+            board.StateJson = JsonSerializer.Serialize(nextState);
 
             // Check if the board has stabilized
             if (currentState.SetEquals(nextState))
             {
+                await _unitOfWork.SaveChangesAsync();
                 return nextState;
             }
-
-            board.StateJson = JsonSerializer.Serialize(nextState);
         }
 
         await _unitOfWork.SaveChangesAsync();

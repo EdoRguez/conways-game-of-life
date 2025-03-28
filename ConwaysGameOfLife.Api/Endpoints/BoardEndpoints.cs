@@ -37,7 +37,7 @@ public static class BoardEndpoints
             return Results.Ok(new { Id = res.Value });
         });
 
-        group.MapPost("/{id}/future/{steps}", async ([FromServices] GetFutureStateHandler handler, [FromServices] IMapper mapper,[FromRoute] string id, [FromRoute] int steps) =>
+        group.MapGet("/{id}/future/{steps}", async ([FromServices] GetFutureStateHandler handler, [FromServices] IMapper mapper,[FromRoute] string id, [FromRoute] int steps) =>
         {
             if(steps < 1)
                 return Results.BadRequest("Steps must be >= 1.");
@@ -52,7 +52,7 @@ public static class BoardEndpoints
             return Results.Ok(new { LiveCells = res.Value });
         });
 
-        group.MapPost("/{id}/final/{maxSteps}", async ([FromServices] GetFinalStateHandler handler, [FromServices] IMapper mapper,[FromRoute] string id, [FromRoute] int maxSteps) =>
+        group.MapGet("/{id}/final/{maxSteps}", async ([FromServices] GetFinalStateHandler handler, [FromServices] IMapper mapper,[FromRoute] string id, [FromRoute] int maxSteps) =>
         {
             if(maxSteps < 1)
                 return Results.BadRequest("Max steps must be >= 1.");
