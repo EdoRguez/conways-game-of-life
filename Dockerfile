@@ -6,7 +6,7 @@ RUN dotnet tool install --global dotnet-ef
 ENV PATH="$PATH:/root/.dotnet/tools"
 
 # Copy the solution file and restore dependencies
-COPY backend.sln .
+COPY ConwaysGameOfLife.sln .
 COPY ConwaysGameOfLife.Api/ConwaysGameOfLife.Api.csproj ./ConwaysGameOfLife.Api/
 COPY ConwaysGameOfLife.Contracts/ConwaysGameOfLife.Contracts.csproj ./ConwaysGameOfLife.Contracts/
 COPY ConwaysGameOfLife.Core/ConwaysGameOfLife.Core.csproj ./ConwaysGameOfLife.Core/
