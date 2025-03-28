@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConwaysGameOfLife.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7799bdf95d6fe9dcc7b587fd575471a6c833b46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae3d802690d728a0baed910b92263328c5ad7423")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConwaysGameOfLife.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConwaysGameOfLife.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
