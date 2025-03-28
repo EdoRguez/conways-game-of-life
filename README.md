@@ -1,6 +1,6 @@
 # Conway's Game of Life API
 
-A production-ready .NET 8 implementation of Conway's Game of Life with persistent board states and Swagger documentation.
+A production-ready .NET implementation of Conway's Game of Life with persistent board states and Swagger documentation.
 
 ## Problem Description
 Conway's Game of Life is a cellular automaton that simulates cell evolution on an infinite grid using four simple rules. This API implements:
