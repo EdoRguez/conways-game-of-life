@@ -28,5 +28,5 @@ Conway's Game of Life is a cellular automaton that simulates cell evolution on a
 # Build the image
 docker build -t conways-game-of-life-api -f Dockerfile .
 
-# Run container with persistent storage
+# Run container
 docker run --name conways-game-of-life-api -d -p 8080:8080 conways-game-of-life-api
